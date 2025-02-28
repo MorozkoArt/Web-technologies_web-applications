@@ -5,10 +5,79 @@
     <meta name="author" content="A.S.Morozov">
     <meta name="description" content="Курс Web-технологии">
     <meta name="keywords" content="HTML, тег, гипертекст">
-    <title>Laboratory work#1</title>
+    <title>Списки в HTML и таблицы</title>
 </head>
 
 <body>
+    <h3>Списки</h3>
+    <ul type="square">
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+    </ul>
+
+    <ol type="i" start="10">
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+    </ol>
+
+    <ul type="square">
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+            <ul type="circle">
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    <ul type="disc">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Таблицы</h3>
+    <table border="2" bgcolor="#d3d3d3" align="center" width="80%">
+        <tr>
+            <td colspan="3"  bgcolor="darkred"> 01 02 03</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td rowspan="3" bgcolor="red" width="300">05 08 11</td>
+            <td>06</td>
+        </tr>
+        <tr>
+            <td>07</td>
+            <td>09</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>12</td>
+        </tr>
+    </table>
 
 </body>
 </html>
