@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+.header{
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    font-family: FreeMono, monospace
+}
+.text{
+    font-size: 12pt;
+    line-height: 1.5;
+    text-indent: 1.5cm;
+    text-align: justify;
+    font-family: Bradley Hand, cursive;
+}
