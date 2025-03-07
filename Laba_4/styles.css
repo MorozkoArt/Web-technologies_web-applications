@@ -1,0 +1,127 @@
+.inA{
+    text-decoration: none;
+    color: #fff;
+}
+.outA{
+    text-decoration: none;
+    color: #8e00ff;
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    font-family: Comic  Sans MS, Comic Sans, cursive;
+    
+}
+.fotoCats{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+.fotoCats img{
+    height: 450px;
+    box-shadow: rgba(0,0,0,0.19) 0 0 8px 0;
+    border-radius: 4px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #292929;
+    color: #fff;
+}
+.header_section{
+    display: flex;
+    align-items: center;
+}
+.header_item{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.header_item:hover{
+    background-color: #a2a2a2;
+    border-radius: 4px;
+}
+.headerLogo{
+    font-weight: bold;
+}
+.headerButton{
+    cursor: pointer;
+}
+.header{
+    text-align: center;
+    color: #4e4e4e;
+}
+.h1{
+    margin-bottom: 10px;
+}
+.line{
+    border: none;
+    border-top: 0.2em solid #4e4e4e ;
+}
+.grid{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.elem{
+    margin: 0.8em;
+}
+.elem img{
+    width: 30em;
+    box-shadow: rgba(0,0,0,0.19) 0 0 8px 0;
+    border-radius: 4px;
+}
+.elem y{
+    text-align: justify;
+    color: #4e4e4e;
+    font-size: 1.3rem;
+}
+.text{
+    text-align: justify;
+    color: #4e4e4e;
+    font-size: 1.3rem;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #292929;
+    color: #fff;
+}
+body{
+    background-color: #fdf5e6;
+}
+.body{
+    background-color: #d0d0d0;
+}
+.gallery{
+    padding: .5vw;
+    font-size: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-flow: row wrap;
+    display: flex;
+}
+.gallery div{
+    flex: auto;
+    width: 480px;
+    margin: .5vw;
+}
+.gallery div img{
+    width: 100%;
+    height: auto;
+}
+.gallery:hover img{
+    opacity: 0.3;
+    transition: .8s opacity;
+}
+.gallery:hover img:hover{
+    opacity: 1;
+    transition: .4s opacity;
+}
