@@ -31,7 +31,7 @@
     width: 20rem;
 }
 
-.point p:first-letter{
+.point p::first-letter{
     color: #BA55D3;
     font-size: 170%;
     margin-block: 2px;
