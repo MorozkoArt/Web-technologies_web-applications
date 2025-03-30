@@ -10,14 +10,13 @@ a{
     text-decoration: none;
 }
 body{
-
     background: linear-gradient(180deg, rgba(105, 90, 222, 1) 0%, rgba(212, 150, 187, 1) 100%);
     min-height: 100vh;
 }
 .header{
     margin-left: 8rem;
     margin-right: 6rem;
-    height: 12vh;
+    height: 19vh;
     display: flex;
     justify-content: space-between;
     color: #fff;
