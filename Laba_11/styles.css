@@ -1,0 +1,25 @@
+button {
+    border-radius: 2rem;          
+    height: 3.5rem;              
+    border: 0.3rem solid rebeccapurple; 
+    
+
+    background-color: rgb(119, 51, 153); 
+    color: white;                  
+    font-weight: bold;              
+    
+    
+    padding: 0 1.5rem;             
+    cursor: pointer;               
+    transition: 0.3s;   
+    margin-left: 1rem;           
+}
+
+button:hover {
+    background-color: #943399;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #712a5f;  
+}
