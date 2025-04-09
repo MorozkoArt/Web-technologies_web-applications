@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="A.S.Morozov">
+    <meta name="description" content="Курс Web-технологии">
+    <meta name="keywords" content="HTML, css, тег, гипертекст">
+    <title>LabWor 13</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <form id="main-form"> 
+        <!-- Атрибут «for» в теге <label> в HTML позволяет связать метку с конкретным полем ввода -->
+        <label for="name">Имя:</label>
+        <input type="text" name="name" placeholder="Имя" id="name"><br><br>
+        <label for="password">Пароль:</label>
+        <input type="password" name="password" placeholder="Пароль" id="pass"><br><br>
+        <label for="repass">Повторите пароль:</label>
+        <input type="text" name="repass" placeholder="Повторите пароль" id="repass"><br><br>
+        <span>Пол:</span>
+        <input type="radio" name="state" id="male" value="Мужской">
+        <label for="male">Мужской</label>
+        <input type="radio" name="state" id="female" value="Женский">
+        <label for="female">Женский</label><br><br>
+        <div id="error"></div>
+        <input type="submit" name="submit" value="Готово"> 
+    </form>
+</body>
+</html>

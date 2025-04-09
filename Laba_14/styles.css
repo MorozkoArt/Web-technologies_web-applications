@@ -1,0 +1,19 @@
+.text-container {
+    width: 300px;
+    margin-left: 2rem;
+    margin-bottom: 5px;
+}
+
+.short-text {
+    display: inline;
+}
+
+.full-text {
+    display: none;
+}
+
+.toggle-btn {
+    color: rgb(160, 128, 128);
+    cursor: pointer;
+    margin-left: 2rem;
+}
