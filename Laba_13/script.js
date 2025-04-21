@@ -39,16 +39,16 @@ function checkForm(event) {
         document.getElementById("pass").classList.add("invalid");
         document.getElementById("repass").classList.add("invalid");
     }
-    else if (pass !== repass && pass !== "" && repass !== "") {
-        fail += "Пароли не совпадают<br>";
-        document.getElementById("pass").classList.add("invalid");
-        document.getElementById("repass").classList.add("invalid");
-    } 
     else if (pass.split("&").length > 1) {
         fail += "Пароль содержит запрещенный символ '&'<br>";
         document.getElementById("pass").classList.add("invalid");
         document.getElementById("repass").classList.add("invalid");
     }
+    else if (pass !== repass && pass !== "" && repass !== "") {
+        fail += "Пароли не совпадают<br>";
+        document.getElementById("pass").classList.add("invalid");
+        document.getElementById("repass").classList.add("invalid");
+    } 
     else {
         document.getElementById("pass").classList.add("valid");
         document.getElementById("repass").classList.add("valid");
