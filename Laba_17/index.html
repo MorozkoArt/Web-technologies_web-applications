@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="A.S.Morozov">
+    <meta name="description" content="Курс Web-технологии">
+    <meta name="keywords" content="HTML, css, тег, гипертекст">
+    <title>LabWor 17</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Список пользователей</h1>
+    <ol id="user-list"></ol>
+
+    <h2>Добавить пользователя</h2>
+    <input type="text" id="name" placeholder="Имя">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="addUser()">Добавить</button>
+
+    <h2>Найти пользователя по имени</h2>
+    <input type="text" id="namesearch" placeholder="Имя для поиска">
+    <button onclick="getUsersByName()">Найти</button>
+    
+    <h3>Список найденных пользователей</h3>
+    <table id="found-users">
+        <thead>
+            <tr><th>ID</th><th>Имя</th><th>Email</th></tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Удалить пользователя</h2>
+    <input type="number" id="delete-id" placeholder="ID пользователя">
+    <button onclick="deleteUser()">Удалить</button>
+
+    <h2>Управление базой данных</h2>
+    <button onclick="clearDB()">Очистить базу данных</button>
+    <button onclick="deleteDB()">Удалить базу данных</button>
+    <button onclick="openOrCreate()">Открыть или создать базу</button>
+
+</body>
+</html>
