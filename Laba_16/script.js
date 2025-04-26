@@ -76,8 +76,9 @@ function showMessage(text, type) {
 document.getElementById('okBtn').addEventListener('click', function() {
     const name = document.getElementById('nameInput').value.trim();
     const birthDate = document.getElementById('birthDateInput').value;
+    const dateObject = new Date(birthDate);
+    const year = dateObject.getFullYear();
     
-    // Проверка введенных данных
     if (!name) {
         showMessage('Пожалуйста, введите имя!', 'warning');
         return;
@@ -87,10 +88,14 @@ document.getElementById('okBtn').addEventListener('click', function() {
         showMessage('Пожалуйста, выберите дату рождения!', 'warning');
         return;
     }
+
+    if (year >= 2025) {
+        showMessage('Год должен быть меньше 2025-го','warning' );
+        return;
+    }
     const person = new Person(name, birthDate);
     people.push(person);
     
-    // Очищаем поля ввода
     document.getElementById('nameInput').value = '';
     document.getElementById('birthDateInput').value = '';
     

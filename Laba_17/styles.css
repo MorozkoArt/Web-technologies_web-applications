@@ -78,7 +78,6 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-/* Стили для кнопок опасных действий */
 button[onclick="clearDB()"],
 button[onclick="deleteDB()"] {
     background-color: #e74c3c;
@@ -89,7 +88,6 @@ button[onclick="deleteDB()"]:hover {
     background-color: #c0392b;
 }
 
-/* Отступы между секциями */
 h2 {
     margin-top: 30px;
 }
